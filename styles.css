@@ -8,6 +8,78 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.calculator,
+.display,
+.clear,
+.delete,
+button {
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.clear:hover,
+.delete:hover,
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.calculator {
+  background-color: rgb(150, 150, 150);
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  justify-content: space-between;
+  padding: 25px;
+  row-gap: 10px;
+  width: 400px;
+}
+
+.display {
+  background-color: white;
+  height: fit-content;
+  padding: 25px 20px;
+  width: 350px;
+}
+
+span {
+  font-size: 36px;
+  float: right;
+}
+
+.clear {
+  background-color: lightcoral;
+  font-size: 18px;
+  height: fit-content;
+  padding: 20px;
+  margin-top: 10px;
+  width: 170px;
+}
+
+.delete {
+  background-color: lightsalmon;
+  font-size: 18px;
+  height: fit-content;
+  padding: 20px;
+  margin-top: 10px;
+  width: 170px;
+}
+
+button {
+  background-color: white;
+  font-size: 18px;
+  height: fit-content;
+  opacity: 1;
+  padding: 25px 20px;
+  width: 80px;
+}
+
 footer {
   align-items: center;
   bottom: 0;
