@@ -11,27 +11,23 @@ body {
 main {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 15vh;
 }
 
 .calculator,
 .display,
-.clear,
-.delete,
 button {
   border: 1px solid black;
   border-radius: 8px;
 }
 
-.clear:hover,
-.delete:hover,
 button:hover {
   cursor: pointer;
   opacity: 0.8;
 }
 
 .calculator {
-  background-color: rgb(160, 160, 160);
+  background-color: rgb(170, 170, 170);
   display: flex;
   flex-wrap: wrap;
   height: fit-content;
@@ -43,14 +39,15 @@ button:hover {
 
 .display {
   background-color: white;
+  display: flex;
+  justify-content: flex-end;
   height: fit-content;
   padding: 25px 20px;
   width: 350px;
 }
 
-span {
-  font-size: 36px;
-  float: right;
+.display > p {
+  font-size: 42px;
 }
 
 .clear {
