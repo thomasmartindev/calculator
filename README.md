@@ -1,5 +1,5 @@
 # Calculator
 
-Calculator created with HTML, CSS and JS.
+Calculator created with HTML, CSS and JavaScript.
 
-[Live Demo](https://thomasmdevelopment.github.io/calculator/)
+[Live Preview](https://thomasmdevelopment.github.io/calculator/)
